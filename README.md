@@ -38,14 +38,13 @@ are highly encouraged to reference previous solutions.
 7. When the mole is clicked, it will move from its current hole to another randomly selected
    hole. (It's fine if the randomly selected hole happens to be the same hole.)
 8. When the mole is clicked, the score goes up by 1.
-9. If the user presses the start button, they are sent back to the welcome screen.
+9. If the user presses the restart button, they are sent back to the welcome screen.
 10. If the user plays again after restarting, the score is reset to 0 and the mole moves to
     a new random position.
 
 ### Extensions
 
-Make sure you've fulfilled all of the requirements before starting these extensions. These
-are optional but will be great practice!
+Make sure you've fulfilled all of the requirements before starting these extensions. These are optional but will be great practice!
 
 1. Adjust the mole behavior so that it will always choose a new hole to go to when
    clicked. It should never randomly select the hole that it's already in.\

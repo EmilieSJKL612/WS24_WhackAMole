@@ -6,6 +6,9 @@ Whack a Mole is a classic arcade game that consists of a cabinet with a play are
 large mallet. Points are scored by whacking each mole as it appears. You will be making a
 simple web version of this game!
 
+A [live demo of the finished project](https://fsa-whack-a-mole.netlify.app/) is available
+for you to reference.
+
 ## Requirements
 
 It's up to you how you would like to build this, as long as your submission meets the

@@ -1,8 +1,7 @@
-
 // RQ1
-import React from 'react';
-import { useGame } from '../context/GameContext';
-import Hole from './Hole';
+import React from "react";
+import { useGame } from "../context/GameContext";
+import Hole from "./Hole";
 
 // RQ7
 const GameScreen = () => {
@@ -21,9 +20,9 @@ const GameScreen = () => {
       <div className="game-board">
         {/* RQ6 - single mole in one of the holes */}
         {Array.from({ length: 9 }, (_, index) => (
-          <Hole 
-            key={index} 
-            index={index} 
+          <Hole
+            key={index}
+            index={index}
             hasMole={index === molePosition}
             onMoleClick={whackMole}
           />
